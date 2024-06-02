@@ -1,0 +1,8 @@
+# ignore
+/data
+/pretrained
+/vqa_checkpoint
+/python
+/results
+
+*ipynb_checkpoints
