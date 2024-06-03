@@ -87,7 +87,7 @@ Prepare the model as follows.
 [VATEX.ipynb](demos/Eval_Cap_VATEX.ipynb)
 
 ## Acknowledgements
-This repo benefits from [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA), [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [DeCap](https://github.com/dhg-wei/DeCap), [MVBench](https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md), [Llama2](https://github.com/meta-llama/llama) and [Llama3](https://github.com/meta-llama/llama3).
+This repo is built upon [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA) and benefits from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [DeCap](https://github.com/dhg-wei/DeCap), [MVBench](https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md), [Llama2](https://github.com/meta-llama/llama) and [Llama3](https://github.com/meta-llama/llama3).
 
 
 ## Citations
