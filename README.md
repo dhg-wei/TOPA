@@ -32,7 +32,7 @@ Pretrained models
 [VATEX](demos/Eval_Cap_VATEX.ipynb)
 
 ## Acknowledgements
-This repo benefits from [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA), [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [LLama2](https://github.com/meta-llama/llama) and [LLama3](https://github.com/meta-llama/llama3).
+This repo benefits from [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA), [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [MVBench](https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md), [LLama2](https://github.com/meta-llama/llama) and [LLama3](https://github.com/meta-llama/llama3).
 
 
 ## Citations
