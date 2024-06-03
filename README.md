@@ -1,15 +1,70 @@
-# TOPA
-TOPA: Extend Large Language Models for Video Understanding via Text-Only Pre-Alignment
+<div align="center">
+<h1>TOPA: Extend Large Language Models for Video Understanding via Text-Only Pre-Alignment <a href="https://www.arxiv.org/pdf/2405.13911" target="_blank">(arXiv)</a>
+</h1>
+</div>
 
-[arXiv](https://www.arxiv.org/pdf/2405.13911)
+<div align="center">
+  <img src="pics/topa_framework.jpg" width="900px" />
+</div>
 
-The code, pre-trained model, and data will be released in **June**.
+## Data Preparation:
+Prepare the data as follows.
 
-## TODO:
+**TextVID**: [TODO]
 
-Data
+**NeXTQA, STAR and TVQA**:
+The prepocessed feautures are available at [here](https://github.com/mlvlab/Flipped-VQA)
 
-Pretrained models
+**EgoScehma**:
+Download raw videos from [EgoSchema](https://github.com/egoschema/EgoSchema). We provide prepocessed feature [TODO]
+
+**MVBench**: 
+Download raw videos from [Hugging Face](https://huggingface.co/datasets/OpenGVLab/MVBench).
+
+**MSRVTT**:
+Download raw videos from [MSRVTT](https://github.com/crux82/msr-vtt-it)
+
+```
+./data
+   |─ nextqa
+   |   |─ train.csv
+   |   |─ val.csv
+   |   └─ clipvitl14.pth
+   |─ star
+   |   :
+   |─ tvqa
+   |   :
+   └─ egos
+       :
+```
+## Model Preparation:
+Prepare the model as follows.
+
+**LLMs**: Download the pretrained Llama models from [Llama2](https://github.com/meta-llama/llama) and [Llama3](https://github.com/meta-llama/llama3).
+
+**TOPA Checkpoints**: TODO
+```
+./pretrained
+   └─ llama2
+   |    |─ 7B
+   |    |   |─ consolidated.00.pth
+   |    |   └─ params.json
+   |    |─ 13B
+   |    |   :
+   |    |   :
+   |    └─ tokenizer.model
+   └─ llama3
+        |─ 8B
+        |   |─ consolidated.00.pth
+        |   └─ params.json
+        └─ tokenizer.model
+
+./vqa_checkpoint
+   └─ checkpoint_pretrain
+        |─ llama2_7b
+        |─ llama2_13b
+        └─ llama3_8b
+```
 
 ## Train & Eval
 ### Text-only Pre-alignment
@@ -32,7 +87,7 @@ Pretrained models
 [VATEX](demos/Eval_Cap_VATEX.ipynb)
 
 ## Acknowledgements
-This repo benefits from [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA), [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [MVBench](https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md), [LLama2](https://github.com/meta-llama/llama) and [LLama3](https://github.com/meta-llama/llama3).
+This repo benefits from [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA), [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [MVBench](https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md), [Llama2](https://github.com/meta-llama/llama) and [Llama3](https://github.com/meta-llama/llama3).
 
 
 ## Citations
