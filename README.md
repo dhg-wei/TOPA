@@ -13,7 +13,7 @@ Prepare the data as follows.
 **TextVID**: [TODO]
 
 **NeXTQA, STAR and TVQA**:
-The prepocessed feautures are available at [here](https://github.com/mlvlab/Flipped-VQA)
+The prepocessed feautures are available at [here](https://github.com/mlvlab/Flipped-VQA).
 
 **EgoScehma**:
 Download raw videos from [EgoSchema](https://github.com/egoschema/EgoSchema). We provide prepocessed feature [TODO]
@@ -22,7 +22,7 @@ Download raw videos from [EgoSchema](https://github.com/egoschema/EgoSchema). We
 Download raw videos from [Hugging Face](https://huggingface.co/datasets/OpenGVLab/MVBench).
 
 **MSRVTT**:
-Download raw videos from [MSRVTT](https://github.com/crux82/msr-vtt-it)
+Download raw videos from [MSRVTT](https://github.com/crux82/msr-vtt-it).
 
 ```
 ./data
@@ -66,7 +66,7 @@ Prepare the model as follows.
         └─ llama3_8b
 ```
 
-## Train & Eval
+## Training & Evaluation
 ### Text-only Pre-alignment
 ```
 ./scripts/pretrain/llama2_7b.sh
@@ -82,12 +82,12 @@ Prepare the model as follows.
 [mvbench.ipynb](demos/mvbench.ipynb)
 
 ### Evaluate on video captioning benchmarks
-[MSRVTT](demos/Eval_Cap_MSRVTT.ipynb)
+[MSRVTT.ipynb](demos/Eval_Cap_MSRVTT.ipynb)
 
-[VATEX](demos/Eval_Cap_VATEX.ipynb)
+[VATEX.ipynb](demos/Eval_Cap_VATEX.ipynb)
 
 ## Acknowledgements
-This repo benefits from [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA), [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [MVBench](https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md), [Llama2](https://github.com/meta-llama/llama) and [Llama3](https://github.com/meta-llama/llama3).
+This repo benefits from [Flipped-VQA](https://github.com/mlvlab/Flipped-VQA), [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter), [DeCap](https://github.com/dhg-wei/DeCap), [MVBench](https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md), [Llama2](https://github.com/meta-llama/llama) and [Llama3](https://github.com/meta-llama/llama3).
 
 
 ## Citations
