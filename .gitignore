@@ -3,6 +3,7 @@ data/*
 !data/.gitkeep
 pretrained/*
 vqa_checkpoint/*
+!data/.vqa_checkpoint
 /python
 results/*
 
