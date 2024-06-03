@@ -1,5 +1,6 @@
 # ignore
 data/*
+!data/.gitkeep
 pretrained/*
 vqa_checkpoint/*
 /python
