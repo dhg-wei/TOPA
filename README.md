@@ -10,7 +10,7 @@
 ## Data Preparation:
 Prepare the data as follows.
 
-**TextVID**: [TODO]
+**TextVID**: download TextVID at [google drive link](https://drive.google.com/file/d/12xocihCDYocHVtsdzymii3BnTJmlh430/view?usp=sharing)
 
 **NeXTQA, STAR and TVQA**:
 The prepocessed feautures are available at [here](https://github.com/mlvlab/Flipped-VQA).
