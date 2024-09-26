@@ -1,5 +1,5 @@
 <div align="center">
-<h1>TOPA: Extend Large Language Models for Video Understanding via Text-Only Pre-Alignment <a href="https://www.arxiv.org/pdf/2405.13911" target="_blank">(arXiv)</a>
+<h1>TOPA: Extend Large Language Models for Video Understanding via Text-Only Pre-Alignment <a href="https://www.arxiv.org/pdf/2405.13911" target="_blank">(NeurIPS 2024 Spollight)</a>
 </h1>
 </div>
 
