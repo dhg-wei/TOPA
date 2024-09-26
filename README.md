@@ -42,7 +42,7 @@ Prepare the model as follows.
 
 **LLMs**: Download the pretrained Llama models from [Llama2](https://github.com/meta-llama/llama) and [Llama3](https://github.com/meta-llama/llama3).
 
-**TOPA Checkpoints**: TODO
+**TOPA Checkpoints**: Download our [pretrained models](https://drive.google.com/file/d/1-Ce6LC-1TeKvUbg_BeCWzsps6XBf-dlG/view?usp=sharing)
 ```
 ./pretrained
    └─ llama2
