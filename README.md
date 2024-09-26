@@ -18,7 +18,7 @@ Prepare the data as follows.
 The prepocessed feautures are available at [here](https://github.com/mlvlab/Flipped-VQA).
 
 **EgoScehma**:
-Download raw videos from [EgoSchema](https://github.com/egoschema/EgoSchema). We provide prepocessed feature [TODO]
+Download raw videos from [EgoSchema](https://github.com/egoschema/EgoSchema). We provide prepocessed feature [here](https://drive.google.com/file/d/1yCAw101BZvOtSntDToNX7TR8ErdnfSdk/view?usp=sharing)
 
 **MVBench**: 
 Download raw videos from [Hugging Face](https://huggingface.co/datasets/OpenGVLab/MVBench).
